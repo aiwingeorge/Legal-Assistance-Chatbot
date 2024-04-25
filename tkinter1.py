@@ -10,13 +10,13 @@ import os
 from langchain.chains.question_answering import load_qa_chain
 from langchain.llms import OpenAI
 
-os.environ["OPENAI_API_KEY"] = "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"
+os.environ["OPENAI_API_KEY"] = "--Enter OpenAI Key--"
 
 # provide the paths of pdf files.
 pdf_paths = [
-    r"C:\Users\shilp\OneDrive\Documents\Luminar\Internship\careerbot-NLP\IPC part 2.pdf",
-    r"C:\Users\shilp\OneDrive\Documents\Luminar\Internship\careerbot-NLP\IPC part 3.pdf",
-    r"C:\Users\shilp\OneDrive\Documents\Luminar\Internship\careerbot-NLP\IPC Sections.pdf"
+    r"--PDF Path 1--",
+    r"--PDF Path 2--",
+    r"--PDF Path 3--"
 ]
 
 raw_texts = []
